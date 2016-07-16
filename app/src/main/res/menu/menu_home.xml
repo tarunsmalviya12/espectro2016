@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_event"
+        android:orderInCategory="100"
+        android:title="Event" />
+
+    <item
+        android:id="@+id/action_sponsor"
+        android:orderInCategory="101"
+        android:title="Sponsor" />
+
+    <item
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="103"
+        android:title="Contact us" />
+</menu>

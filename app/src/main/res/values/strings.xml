@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Espectro</string>
+    <string name="error_common_failure">No Internet Connection</string>
+</resources>

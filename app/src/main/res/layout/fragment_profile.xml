@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clgTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:layout_marginTop="@dimen/dim_16"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_14" />
+
+    <TextView
+        android:id="@+id/sidTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_14" />
+
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_14" />
+
+    <TextView
+        android:id="@+id/phoneNoTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_35"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dim_16"
+        android:layout_marginTop="@dimen/dim_20"
+        android:background="@drawable/button"
+        android:text="LOGOUT"
+        android:textColor="@color/colorAccent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" />
+</LinearLayout>

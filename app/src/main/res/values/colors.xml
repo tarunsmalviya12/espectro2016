@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimary50">#80333333</color>
+    <color name="colorPrimary70">#B3333333</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#ff5c52</color>
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorSecondaryText">#ecf0f1</color>
+
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="white20" type="color">#33FFFFFF</item>
+    <item name="white80" type="color">#CCFFFFFF</item>
+
+    <item name="clouds" type="color">#ecf0f1</item>
+    <item name="orange" type="color">#FF9800</item>
+    <item name="brown" type="color">#3E2723</item>
+    <item name="light_brown" type="color">#9A3334</item>
+    <item name="deep_green" type="color">#48bd56</item>
+    <item name="blue" type="color">#00628B</item>
+    <item name="wine" type="color">#7A3E48</item>
+</resources>
